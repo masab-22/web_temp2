@@ -1,0 +1,247 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    background: linear-gradient(to bottom, #102434, #161f86, #3f8acb);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 49;
+    opacity: 0.9;
+}
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    pointer-events: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    color: #FFA500;
+}
+
+.navbar .btnlogin-popup {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.logo {
+    font-size: 32px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 800;
+    pointer-events: none;
+}
+
+.navbar a {
+    font-size: 18px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: 40px;
+}
+
+.navbar a:hover {
+    color: #FFA500;
+}
+
+.navbar .btnlogin-popup {
+    position: relative;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 19px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.navbar .btnlogin-popup::before {
+    content: '';
+    left: 0;
+    bottom: -4px;
+    opacity: .85;
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    background: #fff;
+}
+
+body {
+    background: #0e1a39d2;
+}
+
+section {
+    background: linear-gradient(to bottom, #003366c1, #0c0808);
+}
+
+.head {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.head h1 {
+    font-size: 50px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.head p {
+    font-size: 20px;
+    color: aliceblue;
+    font-weight: 200;
+    margin-bottom: 50px;
+}
+
+.About-us {
+    display: flex;
+    align-items: center;
+    width: 85%;
+    margin: auto;
+}
+
+.About-us img {
+    flex: 0 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.content {
+    padding: 35px;
+}
+
+.content h2 {
+    color: #fff;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 15px 0px;
+}
+
+.content p {
+    color: aliceblue;
+    font-size: 18px;
+    line-height: 1.5;
+    margin: 15px 0px;
+}
+
+.read-more-btn {
+    background: linear-gradient(90deg, #007BFF, #00BFFF);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.read-more-btn:hover {
+    background: linear-gradient(90deg, #FFD700, #FFA500);
+    color: rgb(0, 0, 0);
+    transition: 1s;
+    transform: scale(1.05);
+}
+
+@media(max-width:786px) {
+    .About-us {
+        flex-direction: column;
+    }
+
+    .About-us img {
+        flex: 0 100%;
+        max-width: 100%;
+    }
+
+    .content {
+        max-width: 100%;
+        flex: 0 100%;
+        padding: 15px;
+    }
+}
+
+a {
+    text-decoration: none;
+}
+
+.footer-text {
+    color: #fff;
+    margin-bottom: 3%;
+}
+
+footer {
+    background-color: #272727;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 30px;
+    margin-top: 50px;
+}
+
+footer li {
+    list-style: none;
+    margin: 10px;
+    display: inline-block;
+}
+
+.icons a {
+    background: #012b9d7f;
+    color: #272727;
+    padding: 14px;
+    font-size: 20px;
+    border-radius: 100%;
+    display: flex;
+}
+
+.icons a:hover {
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+.menu a {
+    color: #ffffff;
+    text-transform: capitalize;
+}
+
+.menu a:hover {
+    color: #52527a;
+    transition: 0.5s;
+}
+
+.footer-copyright {
+    background-color: #012b9d7f;
+    color: #ffffff;
+    padding: 15px;
+    margin-top: 30px;
+    text-transform: capitalize;
+}
+
+.footer-copyright p {
+    margin-bottom: 0px;
+}
